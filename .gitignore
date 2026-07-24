@@ -1,22 +1,60 @@
+# ===========================
 # Python
-__pycache__/
-*.pyc
+# ===========================
 
-# Virtual Environment
-.venv/
+backend/venv/
+backend/.venv/
+backend/__pycache__/
+backend/**/*.pyc
 
-# Environment Variables
+# ===========================
+# Node
+# ===========================
+
+frontend/node_modules/
+frontend/.next/
+
+# ===========================
+# Environment
+# ===========================
+
 backend/.env
+backend/.env.local
+backend/.env.docker
 
-# VS Code
-.vscode/
+frontend/.env.local
+frontend/.env.production
 
+.env
+
+# ===========================
 # macOS
+# ===========================
+
 .DS_Store
 
-# Docker
+# ===========================
+# VSCode
+# ===========================
+
+.vscode/
+
+# ===========================
+# Logs
+# ===========================
+
+*.log
+
+# ===========================
+# MQTT
+# ===========================
+
 docker/mqtt/data/
 docker/mqtt/log/
 
-# Database
-*.db
+# ===========================
+# Docker
+# ===========================
+
+postgres_data/
+redis_data/
