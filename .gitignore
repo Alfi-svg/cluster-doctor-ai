@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual Environment
+.venv/
+
+# Environment Variables
+backend/.env
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Docker
+docker/mqtt/data/
+docker/mqtt/log/
+
+# Database
+*.db
